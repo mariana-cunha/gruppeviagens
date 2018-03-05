@@ -1,0 +1,139 @@
+body { 
+    margin: 0;
+}
+
+h1 { 
+    font-family: 'Flamenco';
+}
+
+h2 { 
+    font-family: 'Flamenco';
+}
+
+h3 { 
+    font-family: 'Flamenco';
+}
+
+p { 
+    font-family: 'Asap';
+    font-size: 20px;
+}
+
+nav {     
+    padding: 10px;
+    float: left;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: fixed;
+}
+
+nav ul { 
+    font-family: 'Asap';
+    
+}
+
+nav li { 
+    list-style: none;
+    display: inline;
+    color: white;
+}
+
+header {
+    min-height: 90vh;
+    background-image: url(../img/bg-banner.png);
+    background-repeat: no-repeat;
+    background-position: center bottom;
+    background-size: cover;
+    align-items: center;
+    display: flex;
+    color: white;
+}
+
+header > div { 
+    margin: 0 auto;
+    padding: 100px;
+    text-align: center;
+}
+
+header a { 
+    background-color: black;
+    color:white;
+    padding: 10px 30px;
+    text-decoration: none;
+    transition: 1s color;
+}
+
+header a:hover { 
+    background-color: black;
+    color: white;
+    transition: 1s color;
+}
+
+header a:active
+header a:focus,
+header a:visited { 
+
+} 
+
+main > .sobre { 
+    display: flex;
+    align-items: center;
+    max-width: 40%;
+    margin-left: 70px;
+}
+
+.passo-a-passo {
+    font-family: 'asap';
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.servicos > div { 
+    background-image: url(../img/bg-servicos.png);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: blue opacity: 50%;
+}
+
+.curiosidades { 
+
+}
+
+.contato { 
+    font-family: 'asap';
+    justify-content: center;
+    align-items: center;
+    display: inline-block;
+}
+
+.newsletter { 
+    font-family: 'asap';
+    justify-content: center;
+    align-items: center;
+    display: inline;
+}
+
+footer { 
+    font-family: 'asap';
+    justify-content: space-between;
+    display: block;
+    width: 10px 100%;
+}
+
+footer > div { 
+    display: flex;
+    justify-content: space-between;
+    width: 50px 100%;
+}
+
+footer ul { 
+    font-family: 'asap';
+    list-style: none;
+    display: blockquote;
+    color: black;
+}
